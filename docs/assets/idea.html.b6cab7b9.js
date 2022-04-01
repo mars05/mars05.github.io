@@ -1,1 +1,0 @@
-const e={key:"v-43209542",path:"/plugin/idea.html",title:"crud-intellij-plugin",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1648604286e3,contributors:[{name:"xiaoyu",email:"xiaoyucoder@163.com",commits:1}]},filePathRelative:"plugin/idea.md"};export{e as data};
