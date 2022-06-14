@@ -4,12 +4,30 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="generator" content="VuePress 2.0.0-beta.48">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
     <title>Crud Hub 在线文档</title><meta name="description" content="CRUD 代码生成平台">
-    <link rel="modulepreload" href="/docs/assets/app.0b647c9d.js"><link rel="modulepreload" href="/docs/assets/404.html.18bfcbbe.js"><link rel="modulepreload" href="/docs/assets/plugin-vue_export-helper.21dcd24c.js"><link rel="modulepreload" href="/docs/assets/404.html.8338caf2.js"><link rel="prefetch" href="/docs/assets/index.html.5c49cd37.js"><link rel="prefetch" href="/docs/assets/index.html.5a0aad93.js"><link rel="prefetch" href="/docs/assets/getting-started.html.f47a3989.js"><link rel="prefetch" href="/docs/assets/idea.html.d2623ab4.js"><link rel="prefetch" href="/docs/assets/file.html.e86a2e96.js"><link rel="prefetch" href="/docs/assets/project.html.c8db209a.js"><link rel="prefetch" href="/docs/assets/var.html.6671f2d4.js"><link rel="prefetch" href="/docs/assets/index.html.f4f73456.js"><link rel="prefetch" href="/docs/assets/index.html.405e74ee.js"><link rel="prefetch" href="/docs/assets/getting-started.html.7479e364.js"><link rel="prefetch" href="/docs/assets/idea.html.6042535f.js"><link rel="prefetch" href="/docs/assets/file.html.ebf86c27.js"><link rel="prefetch" href="/docs/assets/project.html.02367637.js"><link rel="prefetch" href="/docs/assets/var.html.a3a993ee.js">
-    
+    <link rel="modulepreload" href="/docs/assets/app.68cc8425.js"><link rel="modulepreload" href="/docs/assets/404.html.50243c41.js"><link rel="modulepreload" href="/docs/assets/404.html.265028f6.js"><link rel="prefetch" href="/docs/assets/index.html.9c8fe54c.js"><link rel="prefetch" href="/docs/assets/index.html.a9bda2e7.js"><link rel="prefetch" href="/docs/assets/getting-started.html.6d5e7fcd.js"><link rel="prefetch" href="/docs/assets/idea.html.369baa58.js"><link rel="prefetch" href="/docs/assets/file.html.8e87e7c3.js"><link rel="prefetch" href="/docs/assets/project.html.19aba768.js"><link rel="prefetch" href="/docs/assets/var.html.6889f048.js"><link rel="prefetch" href="/docs/assets/index.html.91210aad.js"><link rel="prefetch" href="/docs/assets/index.html.89d11514.js"><link rel="prefetch" href="/docs/assets/getting-started.html.dbd15289.js"><link rel="prefetch" href="/docs/assets/idea.html.ee219a5a.js"><link rel="prefetch" href="/docs/assets/file.html.be6578d7.js"><link rel="prefetch" href="/docs/assets/project.html.013ac6cd.js"><link rel="prefetch" href="/docs/assets/var.html.264e48df.js"><link rel="prefetch" href="/docs/assets/404.f1fee4a2.js"><link rel="prefetch" href="/docs/assets/Layout.c944c611.js">
+    <link rel="stylesheet" href="/docs/assets/style.42efc232.css">
   </head>
   <body>
-    <div id="app"><!--[--><404></404><!--]--></div>
-    <script type="module" src="/docs/assets/app.0b647c9d.js" defer></script>
+    <div id="app"><!--[--><div class="theme-container"><div class="theme-default-content"><h1>404</h1><blockquote>看起来我们进入了错误的链接</blockquote><a href="/docs/" class="">返回首页</a></div></div><!----><!--]--></div>
+    <script type="module" src="/docs/assets/app.68cc8425.js" defer></script>
   </body>
 </html>
